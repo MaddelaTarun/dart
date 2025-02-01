@@ -11,6 +11,7 @@
 dynamic value = '12334';
 print(value.runtimeType); // String
 ```
+---
 
 ### Method 2:
 Using `var`, `final`, or `const`:
@@ -39,6 +40,8 @@ print(someValue.runtimeType);
     const thirdValue = 10;
     print(thirdValue);
     ```
+
+---
 
 ### Optional Variables:
 - Variables can either hold a specific type `String`/`int`/`bool` or be `null` (nullable)
@@ -106,11 +109,10 @@ print(someValue.runtimeType);
     print(sampleValue?.length); // 11
     ```
   - For example, if `sampleValue = 'goodmorning'`, there is no need of the question mark in the `print(sampleValue?.length)`. It prints the length of the `sampleValue` variable which is **11**
-
-
-
-
-
-<!-- ### Summary:
-- Every variable must have a type, but the syntax for specifying a type is optional.
-- Variables can either hold a specific type `String`/`int`/`bool` or be `null` (nullable) -->
+  - ***Ternary Operator***
+    ```dart
+    String? sampleValue;
+    sampleValue = null;  
+    print(sampleValue?.length??"This is a null value");
+    ```
+  - This means that if the value of `sampleValue` is `null`, it will print `This is a null value`
