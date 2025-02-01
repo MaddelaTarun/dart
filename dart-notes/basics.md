@@ -1,4 +1,4 @@
-## 1. BASICS
+## BASICS
 
 ```dart
 print(3+2); // 5
@@ -9,7 +9,7 @@ print('3'*2);
 print(75/(5+2));
 ```
 
-### 1.1. String Handling
+### String Handling
 Instead of:
 
 ```dart
@@ -24,14 +24,14 @@ Use:
 print('$greeting Yo'); // RECOMMENDED
 ```
 
-### 1.2. Special Characters
+### Special Characters
 To use the `$` sign:
 
 ```dart
 print('\$12'); // $12
 ```
 
-### 1.3. Multi-line Output
+### Multi-line Output
 Two cases:
 
 1. Enclose the text within triple single quotes:
