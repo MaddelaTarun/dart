@@ -1,4 +1,4 @@
-## DATA TYPES / VARIABLES
+# DATA TYPES / VARIABLES
 
 ### Method 1:
 - `int`
