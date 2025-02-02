@@ -78,7 +78,7 @@ print(someValue.runtimeType);
     - Property length cannot be unconditionally accessed because the receiver can be null, In easier words,  
     **The dart compiler knows that the value is null**  
     and hence, the error
-  ![sound null safety](sound-null-safety.png)
+  ![sound null safety](img1.png)
   ```dart
   String? sampleValue;
   print(sampleValue); // null
