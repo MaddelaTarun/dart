@@ -47,7 +47,7 @@ int showNum(){
 - Any statement after the return type will not be reached.
 ---
 
-### Return 2 data types from a function
+### Return multiple data types from a function
 - Dart 3 added support for **Records**
   - Records are a way to group multiple values together without creating a class.
 
