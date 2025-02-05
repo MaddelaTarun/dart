@@ -153,3 +153,27 @@ null
 181.0
 --------
 ```
+- **Positional + Named arguments**
+```dart
+void main(){
+  printName(19, name: "Your name", height: 180);
+}
+
+void printName(int age, {required String name, required double height}){
+  print(name);
+  print(age);
+  print(height);
+  print("--------");
+}
+```
+### Fat Arrow Functions
+
+```dart
+void main(){
+  String value = printStuff();
+  print(value); // Hello, World
+}
+
+String printStuff() => "Hello, World";
+```
+---
