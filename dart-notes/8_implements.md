@@ -21,7 +21,12 @@ void main() {
   dog.makeSound();  // Outputs: Woof! Woof!
 }
 ```
+## Abstract Class
 
+- The above code snippet covers another topic called as **abstract class**
+- An abstract class is a class that cannot be used directly to create objects.
+- It can have both complete methods and abstract methods (methods without a body).
+- Other classes must extend it and provide implementations for abstract methods.
 - The Animal class is **abstract**, meaning it **only provides a structure** (it doesn’t implement any method).
 - Dog `implements` Animal, meaning it must provide its own version of `makeSound()`.
 - If Dog didn’t define `makeSound()`, it would cause an error because implements forces the class to include everything from the blueprint.
